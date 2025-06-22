@@ -10,18 +10,39 @@ The chapter begins by establishing the need for a consistent system of units in 
 
 The text adopts the SI (Le Système International d'Unités) system as the standard, which is a codification of the MKS system. Throughout the text, "log" represents logarithm to base 10, while "ln" represents the natural logarithm (logarithm to base e).
 
-Acoustics is defined as the science of generation, transmission, and reception of energy as vibrational waves in matter. When molecules of a fluid or solid are displaced from their normal configurations, an internal elastic restoring force arises. This elastic restoring force, coupled with the inertia of the system, enables matter to participate in oscillatory vibrations and thereby generate and transmit acoustic waves.
+*Acoustics is defined as the science of generation, transmission, and reception of energy as vibrational waves in matter.* When molecules of a fluid or solid are displaced from their normal configurations, an internal elastic restoring force arises. This elastic restoring force, coupled with the inertia of the system, enables matter to participate in oscillatory vibrations and thereby generate and transmit acoustic waves.
 
 Examples of elastic restoring forces include:
+
 - Tensile force when a spring is stretched
 - Increased pressure when a fluid is compressed  
 - Restoring force when a point on a stretched wire is displaced transverse to its length
 
 The most familiar acoustic phenomenon is sound, perceived when vibrational disturbances have frequencies in the range from about 20 Hz to 20,000 Hz (where 1 Hz = 1 cycle per second). However, acoustics in a broader sense includes ultrasonic frequencies above 20,000 Hz and infrasonic frequencies below 20 Hz. The nature of vibrations associated with acoustics encompasses many types, from simple sinusoidal vibrations of a tuning fork to complex vibrations of a bowed violin string and nonperiodic motions in explosions.
 
-[Comments from the author:
+/*
 
-]
+This introduction provides a few insights that mark out boundaries for a study of acoustics oriented toward digital sound engineering and audio synthesis. 
+
+First, its simple definition of acoustics: *the science of the generation, transmission, and reception of energy as vibrational waves in matter.* 
+
+And second, its statement of the range of frequencies over which acoustic vibrations can be detected as sound: 20 Hz to 20,000 Hz.
+
+These axioms lead to a few key questions:
+
+1. How do we percieve sound between 20 Hz and 20,000 Hz? I am familiar with the scales, keys, and notes of classical Western music -- so this question may be easiest to answer through a proxy: By what patterns do sounds corresponding to these frequencies match to the pitches, scales, chords of classical Western music? 
+
+2. What is the relationship between binary descriptions of sound and analog acoustic phenomena? How is binary audio data (digital descriptions of sound waves) coupled to analog sound output devices? I imagine the fundamental relationship is not dissimilar from the relationship between binary (or digitized) descriptions of optics and 'continuous' classical optical phenomena... Which, I suppose, leads to another question. 
+
+3. Three main theoretical frameworks are used to describe light: 
+
+        a. Geometric optics, wherein light is described as sets of rays
+        b. Physical optics, wherein light is described as continuous waves
+        c. Quantum optics, wherein light is described as photons which exhibit both partical-like and wave-like characteristics
+
+    What are the main theoretical frameworks used to describe acoustic phenomena?
+
+*/
 
 ## 1.2 The Simple Oscillator
 
